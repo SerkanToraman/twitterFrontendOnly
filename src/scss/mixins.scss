@@ -1,0 +1,108 @@
+@import "./variables.css";
+
+@mixin frontPagebuttonsEntry{
+  height:5rem;
+  width:20rem;
+  background-color:$lightBgColor;
+  font-size: 2rem;
+  font-family: $lineText;
+  color:$bordercolors;
+  border :0.1rem solid $bordercolors;
+  border-radius: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover{
+    background-color:$darkBgColor;
+    transition: 1s;
+  }
+}
+@mixin loginFormLabelsEntry{
+  width:100%;
+  color:$bordercolors;
+  font-size: 2rem;
+  font-weight:700;
+  font-family: $lineText;
+  display: flex;
+  align-items: center;
+}
+@mixin loginFormInputsEntry{
+  height:3rem;
+  width:100%;
+  background-color:$lightBgColor;
+  font-size: 1rem;
+  font-family: $lineText;
+  color:$bordercolors;
+  border :0.1rem solid $bordercolors;
+  padding-left: 6px;
+}
+
+@mixin frontPagebuttons {
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  font-family: $lineText;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    transition: 1s;
+  }
+}
+@mixin loginFormInputs {
+  height: 3rem;
+  width: 40rem;
+  background-color: $lightBgColor;
+  font-size: 1rem;
+  font-family: $lineText;
+  color: $bordercolors;
+  border: 0.1rem solid $bordercolors;
+  border-radius: 1rem;
+  padding-left: 3rem;
+}
+@mixin iconsButton {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: transparent;
+  color: $bordercolors;
+  border: 0.1rem;
+  border-radius: 2.5rem;
+  //cursor: pointer;
+}
+@mixin tweetContainerIcons {
+  position: absolute;
+  top: 1.3rem;
+  left: 0.6rem;
+}
+@mixin loginFormLabels {
+  width: 100%;
+  color: $bordercolors;
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: $lineText;
+  display: flex;
+  align-items: center;
+}
+
+@mixin sendTweetInputs {
+  height: 1rem;
+  width: 35rem;
+  background-color: $lightBgColor;
+  font-size: 1rem;
+  font-family: $lineText;
+  color: $bordercolors;
+  border: 0.1rem solid $bordercolors;
+  border-radius: 1rem;
+  padding-left: 3rem;
+}
+@mixin sendTweetButtons {
+  height: 4rem;
+  width: 10rem;
+  font-size: 1.2rem;
+  font-family: $lineText;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    transition: 1s;
+  }
+}

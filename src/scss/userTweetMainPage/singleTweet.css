@@ -1,0 +1,69 @@
+@import "./variables.css";
+#singleTweetCardContainer {
+  width: 50rem;
+  min-height: 10rem;
+  border: 0.1rem solid #AEBCCF;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem;
+}
+#singleTweetCardContainer #tweetCardImg {
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#singleTweetCardContainer #tweetContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+#singleTweetCardContainer #tweetContainer #tweetContainerTop {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+#singleTweetCardContainer #tweetContainer #tweetContainerTop #tweetContainerTopName {
+  flex-grow: 0;
+  font-family: "Plus Jakarta Sans", cursive;
+  color: #252128;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+#singleTweetCardContainer #tweetContainer #tweetContainerTop #tweetContainerTopIconWrapper {
+  position: relative;
+  float: none;
+  flex-grow: 1;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.5rem;
+}
+#singleTweetCardContainer #tweetContainer #tweetContainerTop #tweetContainerTopIconWrapper #tweetContainerTopTime {
+  font-family: "Plus Jakarta Sans", cursive;
+  color: #252128;
+  font-size: 1.2rem;
+}
+#singleTweetCardContainer #tweetContainer #tweetContainerTopUserName {
+  flex-grow: 0;
+  font-family: "Plus Jakarta Sans", cursive;
+  color: #252128;
+  font-size: 1.2rem;
+  padding-left: 0.3rem;
+}
+#singleTweetCardContainer #tweetContainer #tweetContainerMid {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-right: 2rem;
+  line-height: 1.5rem;
+  font-size: 2rem;
+  font-family: "Plus Jakarta Sans", cursive;
+  color: #3f3f46;
+  overflow: visible;
+  overflow-wrap: anywhere;
+  box-sizing: border-box;
+}/*# sourceMappingURL=singleTweet.css.map */

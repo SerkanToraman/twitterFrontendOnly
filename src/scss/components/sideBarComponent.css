@@ -1,0 +1,71 @@
+@import "./variables.css";
+.homePageleftNavBar {
+  width: 30rem;
+  height: 100vh;
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+}
+.homePageleftNavBar h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anton", cursive;
+  color: #252128;
+  font-size: 2rem;
+  flex-grow: 0.2;
+}
+.homePageleftNavBar .homePageleftNavBarMainBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex-grow: 2;
+  margin-top: 2rem;
+}
+.homePageleftNavBar .homePageleftNavBarMainBtns .homePageleftNavBarBtn {
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  font-family: "Plus Jakarta Sans", cursive;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #FFFFFF;
+  font-family: "Plus Jakarta Sans", cursive;
+  color: #AEBCCF;
+  border: 0.1rem solid #AEBCCF;
+}
+.homePageleftNavBar .homePageleftNavBarMainBtns .homePageleftNavBarBtn:hover {
+  transition: 1s;
+}
+.homePageleftNavBar .homePageleftNavBarMainBtns .homePageleftNavBarBtn:hover {
+  background-color: #252128;
+}
+.homePageleftNavBar .homePageleftNavBarPersonalBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex-grow: 0.2;
+}
+.homePageleftNavBar .homePageleftNavBarPersonalBtns .logoutBtn {
+  height: 4rem;
+  width: 15rem;
+  font-size: 1.5rem;
+  font-family: "Plus Jakarta Sans", cursive;
+  border-radius: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #fca5a5;
+  font-family: "Plus Jakarta Sans", cursive;
+  color: #1F2937;
+  border: 0.1rem solid #f87171;
+}
+.homePageleftNavBar .homePageleftNavBarPersonalBtns .logoutBtn:hover {
+  transition: 1s;
+}
+.homePageleftNavBar .homePageleftNavBarPersonalBtns .logoutBtn:hover {
+  color: #FFFFFF;
+  background-color: #f87171;
+}/*# sourceMappingURL=sideBarComponent.css.map */
